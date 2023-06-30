@@ -3,7 +3,7 @@
 function dajLinkiDoProfili()
 {
   //check if link is valid 
-  $homepage = file_get_contents('https://www.europarl.europa.eu/meps/en/full-list');
+  $homepage = file_get_contents('https://www.europarl.europa.eu/meps/en/full-list/all');
 
   $doc = new DOMDocument;
   $doc->loadHTML($homepage);
