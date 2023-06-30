@@ -1,5 +1,5 @@
 # MEP-mails
-Php code to harvest MEP e-mails. 
+Php code to harvest members of the European Parliament
 
 It scans first page for links to MEP profiles and then loops each profile for mail to harvest and save to file...
 Taht's all folks ;)
