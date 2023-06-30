@@ -2,7 +2,6 @@
 // first function scans eu site for links to profiles of MEP and returns array of profiles links.
 function dajLinkiDoProfili()
 {
-  $auth = base64_encode($hasloDev);
   //check if link is valid 
   $homepage = file_get_contents('https://www.europarl.europa.eu/meps/en/full-list');
 
